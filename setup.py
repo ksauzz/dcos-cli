@@ -65,7 +65,7 @@ setup(
         'prettytable>=0.7, <1.0',
         'PyJWT==1.4.2',
         'pygments>=2.0, <3.0',
-        'requests>=2.6, <3.0',
+        'requests[socks]>=2.6, <3.0',
         'six>=1.9, <2.0',
         'toml>=0.9, <1.0',
         'sseclient==0.0.14',
